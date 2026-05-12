@@ -7,6 +7,8 @@ def print_columns(table):
 def print_info(table):
     print(table.info())
 
+def print_describe(table):
+    print(table.describe())
 
 def print_analyze(table, not_printed):
     # Clean the exclude list (lowercase and strip spaces)
